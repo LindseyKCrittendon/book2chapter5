@@ -192,7 +192,7 @@ console.table(restaurant.orders)
 // URL for registering to vote
 
 const elizabethCampaignObject = {
-    // Her congressional district (you can use yours here)
+district: ""
 // Her platform statements for the following issues.
 // Taxes
 // Jobs
@@ -203,11 +203,20 @@ const elizabethCampaignObject = {
 // Calendar of events
 }
 
+const calendarObject = {
+    events: [],
+insertCalendarItem: function(day){
+this.events.push(day)
+    },
+}
+
+
+
 const tomObject = {
 // Volunteer information
 name: "Tom Whatshisface",
 address: "1234 Volunteer Lane",
-email: "Tomwildslutangelface@yahoo.com",
+email: "WildSlutAngel22@yahoo.com",
 phoneNumber: "(304) 555-1234",
 availability: ["Mondays 8-4", "Tuesdays 8-4", "Fridays 12-5"]
 activities: ["answer phones", "pass out fliers", "think of slogans"]
