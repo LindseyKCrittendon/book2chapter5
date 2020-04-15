@@ -191,3 +191,54 @@ console.table(restaurant.orders)
 // Mission statement
 // URL for registering to vote
 
+const elizabethCampaignObject = {
+    // Her congressional district (you can use yours here)
+// Her platform statements for the following issues.
+// Taxes
+// Jobs
+// Infrastructure
+// Health care
+// Crime and enforcement
+// URL for donation form
+// Calendar of events
+}
+
+const tomObject = {
+// Volunteer information
+name: "Tom Whatshisface",
+address: "1234 Volunteer Lane",
+email: "Tomwildslutangelface@yahoo.com",
+phoneNumber: "(304) 555-1234",
+availability: ["Mondays 8-4", "Tuesdays 8-4", "Fridays 12-5"]
+activities: ["answer phones", "pass out fliers", "think of slogans"]
+}
+const sandyObject = {
+    // Volunteer information
+name: "Sandy Restingbitchface",
+address: "722 Cranky Lane",
+email: "Sandy@gmail.com",
+phoneNumber: "(304) 555-2222",
+availability: ["Saturdays 10-10",]
+activities: ["answer phones", "get coffees", "hold the fort"]
+    }
+const johnObject = {
+        // Volunteer information
+    name: "John Doe",
+    address: "234 Who Am I Drive",
+    email: "JDoe@gmail.com",
+    phoneNumber: "(304) 555-0987",
+    availability: ["Thursdays all day", "Fridays 10-6", "Saturdays 1-3"]
+    activities: ["be eye candy", "pass out hats", "file things"]
+    }
+
+
+const elizabethObject = {
+// Biography
+// Image gallery
+// Head shot
+// Picture of family
+// Picture of constituents
+// Mission statement
+// URL for registering to vote
+}
+
