@@ -201,6 +201,10 @@ district: ""
 // Crime and enforcement
 // URL for donation form
 // Calendar of events
+volunteers: [],
+campaignVolunteers: function(person){
+    this.volunteers.push(person)
+},
 }
 
 const calendarObject = {
@@ -208,6 +212,22 @@ const calendarObject = {
 insertCalendarItem: function(day){
 this.events.push(day)
     },
+}
+
+const mondayObject = {
+
+}
+const tuesdayObject = {
+
+}
+const wednesdayObject = {
+
+}
+const thursdayObject = {
+
+}
+const fridayObject = {
+
 }
 
 
