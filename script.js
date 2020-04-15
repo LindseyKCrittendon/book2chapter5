@@ -192,7 +192,7 @@ console.table(restaurant.orders)
 // URL for registering to vote
 
 const elizabethCampaignObject = {
-district: ""
+district: "Westmoreland",
 // Her platform statements for the following issues.
 // Taxes
 // Jobs
@@ -206,6 +206,10 @@ campaignVolunteers: function(person){
     this.volunteers.push(person)
 },
 }
+elizabethCampaignObject.campaignVolunteers(tomObject)
+elizabethCampaignObject.campaignVolunteers(sandyObject)
+elizabethCampaignObject.campaignVolunteers(johnObject)
+console.table(volunteers)
 
 const calendarObject = {
     events: [],
@@ -238,8 +242,8 @@ name: "Tom Whatshisface",
 address: "1234 Volunteer Lane",
 email: "WildSlutAngel22@yahoo.com",
 phoneNumber: "(304) 555-1234",
-availability: ["Mondays 8-4", "Tuesdays 8-4", "Fridays 12-5"]
-activities: ["answer phones", "pass out fliers", "think of slogans"]
+availability: ["Mondays 8-4", "Tuesdays 8-4", "Fridays 12-5"],
+activities: ["answer phones", "pass out fliers", "think of slogans"],
 }
 const sandyObject = {
     // Volunteer information
@@ -247,8 +251,8 @@ name: "Sandy Restingbitchface",
 address: "722 Cranky Lane",
 email: "Sandy@gmail.com",
 phoneNumber: "(304) 555-2222",
-availability: ["Saturdays 10-10",]
-activities: ["answer phones", "get coffees", "hold the fort"]
+availability: ["Saturdays 10-10"],
+activities: ["answer phones", "get coffees", "hold the fort"],
     }
 const johnObject = {
         // Volunteer information
@@ -256,8 +260,8 @@ const johnObject = {
     address: "234 Who Am I Drive",
     email: "JDoe@gmail.com",
     phoneNumber: "(304) 555-0987",
-    availability: ["Thursdays all day", "Fridays 10-6", "Saturdays 1-3"]
-    activities: ["be eye candy", "pass out hats", "file things"]
+    availability: ["Thursdays all day", "Fridays 10-6", "Saturdays 1-3"],
+    activities: ["be eye candy", "pass out hats", "file things"],
     }
 
 
